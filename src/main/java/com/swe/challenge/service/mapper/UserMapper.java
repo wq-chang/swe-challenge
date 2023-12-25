@@ -14,5 +14,7 @@ public interface UserMapper {
 
   @Mapping(target = "id", ignore = true)
   @Mapping(expression = "java(UUID.randomUUID())", target = "uuid")
+  @Mapping(target = "sessions", ignore = true)
+  @Mapping(target = "invitations", ignore = true)
   User registerUserDtoToUser(RegisterUserDto dto);
 }
