@@ -18,6 +18,17 @@
 > Username: root
 ---
 
+### Steps To Use The APIs
+
+> 1. Register user (API1)
+> 2. User can initiates a session (API 2)
+> 3. User invites other users to join the session (API 3)
+> 4. Invitees list the invitations (API 4) and accept the invitation (API 5)
+> 5. Invitees who have joined the session can suggest a restaurant (API 6) and view restaurants suggested by others (API 8)
+> 6. User can end the session and a restaurant is picked randomly (if has any suggestions) (API 7)
+> 7. All the users who have joined the session can list the session (API 4) and view the picked restaurant
+---
+
 ### API 1 (Register User)
 
 > GET http://localhost:8080/users/register
